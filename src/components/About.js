@@ -36,7 +36,7 @@ export default function About() {
               <p className='p-email'>Email: <a href="mailto:www.tspatil03@gmail.com">www.tspatil03@gmail.com</a></p>
               <p className='p-mob'>Mobile: <a href="tel:+9892419181">9892419181</a></p>
             </div>
-            <a href="http://localhost:3000/resume.pdf" download style={{textDecoration: 'none'}}>
+            <a href="https://tspatil.github.io/resume.pdf" download style={{textDecoration: 'none'}}>
             <button className='aboutMain-content-info-btn'>Resume <i class="fa-solid fa-download"></i></button>
             </a>
           </div>
