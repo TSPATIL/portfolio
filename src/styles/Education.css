@@ -1,0 +1,120 @@
+.Education {
+    height: 749px;
+    background-color: rgb(81, 0, 255);
+}
+
+.educationHeading {
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* background-color: orange; */
+    font-size: 36px;
+}
+
+.educationHeadingContent {
+    font-weight: bold;
+}
+
+.educationHeading i {
+    font-size: 50px;
+}
+
+.educationMain {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.educationMain-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.educationMain-content a {
+    text-decoration: none;
+}
+
+.institute {
+    width: 1000px;
+    height: 175px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+    margin-bottom: 5px;
+    border-radius: 7px;
+}
+
+.institute:hover {
+    box-shadow: 5px 5px 10px 2px rgb(31, 0, 96);
+    transform: scale(1.01);
+}
+
+.institute-img {
+    width: 300px;
+    height: 175px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+#bengg {
+    background: url('../media/bengg.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hsc {
+    background: url('../media/hsc.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ssc {
+    background: url('../media/ssc.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.status {
+    width: 700px;
+    height: 100%;
+    padding: 20px 30px;
+}
+
+.qualification {
+    font-size: 27px;
+    font-weight: bold;
+    color: rgb(1, 1, 183);
+}
+
+.institute-name {
+    font-size: 21px;
+    margin: 10px 0px;
+    color: black;
+}
+
+.institute-year {
+    font-size: 18px;
+    margin: 10px 0px;
+    font-weight: bold;
+    color: black;
+}
+
+.institute-status {
+    font-size: 18px;
+    margin: 10px 0px;
+    font-weight: bold;
+    color: black;
+}
+
+.institute-status span {
+    color: red;
+}

@@ -1,0 +1,264 @@
+.Experience {
+    height: 749px;
+    background-color: darkseagreen;
+}
+
+.experienceHeading {
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* background-color: orange; */
+    font-size: 36px;
+}
+
+.experienceHeadingContent {
+    font-weight: bold;
+}
+
+.experienceHeading i {
+    font-size: 50px;
+}
+
+.experienceMain {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.experienceMain::before {
+    content: '';
+    width: 20px;
+    height: 650px;
+    background-color: gold;
+    position: relative;
+    border-radius: 20px;
+    left: 47vw;
+}
+
+.experienceMain-content {
+    width: 95%;
+}
+
+.experience-content-job {
+    width: 100%;
+}
+
+.experience-content-job-container-left {
+    width: 45%;
+    height: 64.8px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.experience-content-job-container-right {
+    width: 45%;
+    height: 64.8px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 50vw;
+    position: relative;
+}
+
+.experience-job-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.experience-content-job-container-left::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: gold;
+    position: absolute;
+    left: 45.5vw;
+    cursor: pointer;
+    margin-top: 17px;
+}
+
+.experience-content-job-container-right::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: gold;
+    position: absolute;
+    right: 44.9vw;
+    cursor: pointer;
+    margin-top: 17px;
+}
+
+.experience-content-job-container-left::after {
+    content: '';
+    width: 57px;
+    height: 7px;
+    background-color: gold;
+    position: absolute;
+    left: 42.2vw;
+    transform: translateY(-36px)
+}
+
+.experience-content-job-container-right::after {
+    content: '';
+    width: 47px;
+    height: 7px;
+    background-color: gold;
+    position: absolute;
+    right: 42.2vw;
+    transform: translateY(-36px)
+}
+
+.exp-job-container1 {
+    width: 93%;
+    /* background-color: blue; */
+    padding: 10px;
+    /* border-right: 1px solid black; */
+}
+
+.exp-job-type {
+    font-size: 21px;
+    font-weight: 550;
+}
+
+.exp-job-duration {
+    text-align: start;
+    display: flex;
+    justify-content: left;
+}
+
+.exp-job-start{
+    margin-right: 3px;
+}
+
+.exp-job-end {
+    margin-left: 3px;
+}
+
+.experience-content-job-container-left .exp-job-view {
+    width: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64.7px;
+    border-bottom: 1px solid black;
+    background-color: black;
+    color: darkseagreen;
+    cursor: pointer;
+    transition: 3s;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.experience-content-job-container-right .exp-job-view {
+    width: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64.7px;
+    border-bottom: 1px solid black;
+    background-color: black;
+    color: darkseagreen;
+    cursor: pointer;
+    transition: 3s;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.exp-job-view:hover > i {
+    transform: scale(1.2);
+}
+
+.exp-job-view:hover i {
+    transition: 1s;
+}
+
+.exp-job-container2 {
+    padding: 15px;
+    text-align: justify;
+    font-size: 17px;
+    color: darkslateblue;
+    display: none;
+    position: absolute;
+}
+
+.experience-content-job-container-left:hover > .exp-job-container2 {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    background-color: gold;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.experience-content-job-container-left:hover::before {
+    background-color: black;
+}
+
+.experience-content-job-container-left:hover::after {
+    background-color: black;
+}
+
+.experience-content-job-container-left:hover {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.experience-content-job-container-left:hover > .experience-job-container .exp-job-view {
+    border-bottom-right-radius: 0;
+}
+
+.experience-content-job-container-left:hover > .experience-job-container .exp-job-view i {
+    rotate: 90deg;
+}
+
+.experience-content-job-container-right:hover > .exp-job-container2 {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    background-color: gold;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.experience-content-job-container-right:hover::before {
+    background-color: black;
+}
+
+.experience-content-job-container-right:hover::after {
+    background-color: black;
+}
+
+.experience-content-job-container-right:hover {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.experience-content-job-container-right:hover > .experience-job-container .exp-job-view {
+    border-bottom-left-radius: 0;
+}
+
+.experience-content-job-container-right:hover > .experience-job-container .exp-job-view i {
+    rotate: -90deg;
+}
